@@ -1,0 +1,9 @@
+name = "grok-proxy"
+main = "worker.js"
+compatibility_date = "2024-12-01"
+
+[placement]
+region = "aws:us-east-1"
+
+[vars]
+# Set AUTH_TOKEN via `wrangler secret put AUTH_TOKEN` for access control
